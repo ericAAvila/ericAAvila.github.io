@@ -4,19 +4,35 @@
     
     main{width:960px; margin-left:auto; margin-right:auto;
     }
-    
-    nav{display:inline; 
+
+    h1{
+        text-align: center;
     }
     
-    a:hover{text-decoration:none; color:red;
+    nav a{
+        margin-left: 10px;
+        text-decoration: none;
+
     }
     
-    header{font-size:large; border-width:10px; border-style:dotted; border-color:grey;
+    a:hover{
+        text-decoration:underline; color:black;
     }
     
-    body{background-color:lightblue;
+    header{
+        font-size:large;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    p {
+        font-size: 20px;
     }
     
-    #basketball, #soccer, #tennis{border-width:4px; border-style:solid; border-color:red
+    body{background-color:rgb(46, 133, 46);
+    }
+    
+    #basketball, #soccer, #tennis{border-width:4px; border-style:dotted; border-color:blue;
     }
     
