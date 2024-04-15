@@ -29,6 +29,9 @@
     p {
         font-size: 20px;
     }
+    span{
+        font-size: 10px ;
+    }
     
     body{background-color:rgb(46, 133, 46);
     }
